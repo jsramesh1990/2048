@@ -5,13 +5,13 @@ A sleek implementation of the addictive 2048 puzzle game in C that runs directly
 
 ## Features
 
-- 🎮 **Real-time keyboard input** (arrow keys + WASD support)
-- 🧩 **Core 2048 mechanics** - merge equal numbers, spawn new tiles
-- 📊 **Score tracking** - accumulates merge values
-- 🔄 **Matrix shifting logic** - compress, merge, and update rows/columns
-- 💀 **Game over detection** - checks for available moves
-- 🖥️ **Clean terminal UI** with ANSI escape codes
-- ⚡ **Raw terminal mode** using termios (no Enter key required)
+-  **Real-time keyboard input** (arrow keys + WASD support)
+-  **Core 2048 mechanics** - merge equal numbers, spawn new tiles
+-  **Score tracking** - accumulates merge values
+-  **Matrix shifting logic** - compress, merge, and update rows/columns
+-  **Game over detection** - checks for available moves
+-  **Clean terminal UI** with ANSI escape codes
+-  **Raw terminal mode** using termios (no Enter key required)
 
 ## Prerequisites
 
@@ -255,15 +255,15 @@ Press 'w' (up)
 
 After mastering the basic version, try adding:
 
-- 🎨 **ncurses graphics** - Colored tiles, smoother rendering
-- 💾 **High score persistence** - Save best scores to file
-- 🔄 **Undo move** - Stack-based move history
-- 🏆 **Achievement system** - Track milestones (512, 1024, 2048)
-- 📊 **Move counter and timer** - Track how long/efficient your game was
-- 🎮 **Animation** - Smooth tile sliding effects
-- 🌐 **Network multiplayer** - Compete with friends
-- 🤖 **AI solver** - Computer plays using expectimax algorithm
-- 📈 **Statistics tracking** - Win rate, average score, best tile
+-  **ncurses graphics** - Colored tiles, smoother rendering
+-  **High score persistence** - Save best scores to file
+-  **Undo move** - Stack-based move history
+-  **Achievement system** - Track milestones (512, 1024, 2048)
+-  **Move counter and timer** - Track how long/efficient your game was
+-  **Animation** - Smooth tile sliding effects
+-  **Network multiplayer** - Compete with friends
+-  **AI solver** - Computer plays using expectimax algorithm
+-  **Statistics tracking** - Win rate, average score, best tile
 
 ## Advanced Enhancement: Score File
 
@@ -287,7 +287,7 @@ int loadHighScore() {
 // In main() after game over
 int highScore = loadHighScore();
 if (score > highScore) {
-    printf("New high score! 🏆\n");
+    printf("New high score! \n");
     saveHighScore();
 }
 ```
@@ -342,9 +342,6 @@ After 2048, challenge yourself with:
 - [ANSI Escape Codes](https://gist.github.com/fnky/458719343aabd01cfb17a7a4f6a1285c) - Terminal colors and formatting
 - [C Reference](https://en.cppreference.com/) - Standard library documentation
 
-## License
-
-Open source for educational purposes.
 
 ---
 
@@ -352,6 +349,6 @@ Open source for educational purposes.
 
 Created as a C programming project demonstrating matrix manipulation and terminal raw mode input on Ubuntu 24.
 
-**Merge wisely and reach 2048! 🎯🔢**
+**Merge wisely and reach 2048! **
 ```
 
